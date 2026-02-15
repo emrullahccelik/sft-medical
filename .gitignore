@@ -134,3 +134,8 @@ cython_debug/
 
 # uv
 # uv.lock is generally committed
+
+
+# Model checkpoints and data
+app/model/*
+!app/model/.gitkeep
