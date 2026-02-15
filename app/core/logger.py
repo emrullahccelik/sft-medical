@@ -15,7 +15,7 @@ def setup_logger():
     
     # Dosyaya da kaydetmek isterseniz
     logger.add(
-        "logs/app.log",
+        "app/logs/app.log",
         rotation="10 MB",
         retention="10 days",
         level="DEBUG",
