@@ -86,7 +86,6 @@ eval_steps = 600
 
 training_args = TrainingArguments(
     output_dir=f"{OUTPUT_DIR}{model_id}/",
-    max_steps=10, # TODO: Change this to a higher number
     num_train_epochs=num_train_epochs,
     per_device_train_batch_size=per_device_train_batch_size,
     gradient_accumulation_steps=gradient_accumulation_steps,
