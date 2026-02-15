@@ -2,15 +2,13 @@ import torch
 import os
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import PeftModel
-from app.config import CACHE_DIR, SAVE_DIR, HF_TOKEN
+from app.config import CACHE_DIR, SAVE_DIR, HF_TOKEN, HF_USERNAME
 
 # ---------------------------------------------------------
 # AYARLAR
 # ---------------------------------------------------------
 BASE_MODEL_ID = "Qwen/Qwen3-0.6B"
 
-# Hugging Face Kullanıcı Adınız (Lütfen burayı kontrol edin)
-HF_USERNAME = "emrullahccelik" 
 # Yeni modelin adı
 NEW_MODEL_NAME = "Qwen3-0.6B-Medical-SFT"
 

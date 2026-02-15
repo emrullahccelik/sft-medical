@@ -16,6 +16,7 @@ else:
 
 # Ayarlar
 HF_TOKEN = os.getenv("HF_TOKEN")
+HF_USERNAME = os.getenv("HF_USERNAME")
 
 # ---------------------------------------------------------
 # Dizin Yolları
