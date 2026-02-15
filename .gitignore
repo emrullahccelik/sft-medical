@@ -137,5 +137,6 @@ cython_debug/
 
 
 # Model checkpoints and data
-app/model/*
-!app/model/.gitkeep
+
+app/models/*
+!app/models/.gitkeep
