@@ -140,3 +140,7 @@ cython_debug/
 
 app/models/*
 !app/models/.gitkeep
+
+# Logs
+app/logs/*
+!app/logs/.gitkeep
