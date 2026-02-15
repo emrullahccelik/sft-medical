@@ -17,3 +17,14 @@ else:
 # Ayarlar
 HF_TOKEN = os.getenv("HF_TOKEN")
 
+# ---------------------------------------------------------
+# Dizin Yolları
+# ---------------------------------------------------------
+CACHE_DIR = f"{BASE_DIR}/models/pre-trained/"
+OUTPUT_DIR = f"{BASE_DIR}/models/checkpoints/"
+SAVE_DIR = f"{BASE_DIR}/models/finetuned/"
+METRICS_DIR = f"{BASE_DIR}/sft/metrics"
+
+# Dizinleri oluştur
+for _dir in [CACHE_DIR, OUTPUT_DIR, SAVE_DIR, METRICS_DIR]:
+    os.makedirs(_dir, exist_ok=True)
