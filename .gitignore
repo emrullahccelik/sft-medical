@@ -144,3 +144,4 @@ app/models/*
 # Logs
 app/logs/*
 !app/logs/.gitkeep
+unsloth_compiled_cache

@@ -24,7 +24,7 @@ HF_USERNAME = os.getenv("HF_USERNAME")
 CACHE_DIR = f"{BASE_DIR}/models/pre-trained/"
 OUTPUT_DIR = f"{BASE_DIR}/models/checkpoints/"
 SAVE_DIR = f"{BASE_DIR}/models/finetuned/"
-METRICS_DIR = f"{BASE_DIR}/sft/metrics"
+METRICS_DIR = f"{BASE_DIR}/unsloth-sft/metrics"
 
 # Dizinleri oluştur
 for _dir in [CACHE_DIR, OUTPUT_DIR, SAVE_DIR, METRICS_DIR]:
